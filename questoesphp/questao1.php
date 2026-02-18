@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1> soma de numeros: </h1>
     <form action="" method="get">
         <label for="numero1">NUMERO 1</label>
         <input type="number" id="numero1" name="primeiro">
@@ -15,7 +16,7 @@
 
         <input type="submit" value="enviar">
     </form>
-
+    
     <?php
     
     $n1 = (float) ($_GET["primeiro"] ?? 0);
@@ -30,4 +31,3 @@
     ?> 
 </body>
 </html>
-
